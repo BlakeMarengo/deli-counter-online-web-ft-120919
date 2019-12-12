@@ -27,7 +27,8 @@ outputString = “The line is currently empty.”
 else{
 outputString = “The line is currently: ”
 for(var i = 0; i < line.length ; i++){
-if (i === 0){outputString = outputString + (i+1) + “. ” + line[i];
+if (i === 0){
+  outputString = outputString + (i+1) + “. ” + line[i];
 }
 else{
 outputString = outputString + “, ” + (i+1) + “. ” + line[i];
